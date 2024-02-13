@@ -6,6 +6,7 @@ function App() {
 
   return (
     <>
+    <div> Lorem ipsum dolor sit amet consectetur.</div>
       <Routes>
         <Route path="/home" element={<Home />} />
       </Routes>
