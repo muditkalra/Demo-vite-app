@@ -7,11 +7,10 @@ import { Link } from 'react-router-dom'
 
 
 export default function Home() {
-  const [count, setCount] = useState(0)
+    const [count, setCount] = useState(0)
 
     return (
         <>
-        <Link to={'/'}>back</Link>
             <div>
                 <a href="https://vitejs.dev" target="_blank">
                     <img src={viteLogo} className="logo" alt="Vite logo" />
@@ -20,6 +19,7 @@ export default function Home() {
                     <img src={reactLogo} className="logo react" alt="React logo" />
                 </a>
             </div>
+            <Link to={'/'}>back</Link>
             <h1>Vite + React</h1>
             <div className="card">
                 <button onClick={() => setCount((count) => count + 1)}>
